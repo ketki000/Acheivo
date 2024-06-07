@@ -1,0 +1,52 @@
+body{
+  font-family: 'Ubuntu Mono', monospace;
+  width: 50%;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+form {
+  margin: 70px 100px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+
+}
+
+table th, table td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+
+}
+
+table th {
+  background-color: #eee;
+}
+input {
+  width: 300px;
+  height: 1.5rem;
+  border-radius: 18px;
+  border: 2px solid #000000;
+  font-size: 1rem;
+  padding: 10px;
+  margin: auto;
+  vertical-align: middle;
+}
+#logoutBtn{
+  margin: 30px 40%;
+}
+input[type="submit"] {
+  height: 50px;
+  width: 100px;
+  font-size: 1.5rem;
+  border: 2px solid #000000;
+  vertical-align: middle;
+  background-color: #a9a9ca;
+
+}
+

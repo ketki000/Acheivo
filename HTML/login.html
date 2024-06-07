@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="..\CSS\login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Login here!</h1>
+    <form name="loginForm" onsubmit="return login()">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br />
+      <p>New user? <a href="index.html">Sign up here</a></p>
+      <input id="loginBtn" type="submit" value="submit" />
+    </form>
+
+    <script src="..\JS\login.js"></script>
+  </body>
+</html>
